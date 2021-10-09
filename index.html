@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="res.css">
+	<title>Moodle</title>
+</head>
+<body>
+
+	<section class="container-all">
+		<div class="container">
+			<div class="images">
+				<img src="headermoodle.jpg">
+			</div>
+
+			<div class="loging-form">
+				<div class="error-msg">
+					<p class="error" id="error">Invalid login, please try again</p>
+				</div>
+
+				<div class="succes-msg">
+					<p class="succes" id="succes">valid login</p>
+				</div>
+				
+				<div class="flex">
+					<div class="form">
+						<input type="text" name="text" id="inputValue" placeholder="Username" required="">
+						<br>
+						<input type="password" name="password" id="inputValue" placeholder="Password" required="">
+						</form>
+
+						<input type="checkbox" name="" class="checkbox">
+						<label>Remember username</label>
+
+						<br>
+
+						<button class="log-in" onclick="valid()">Log in</button>
+						
+					</div>
+
+					<div class="more">
+						<a href="" class="active">Forgotten your username or password?</a>
+
+						<p>Cookies must be enabled in your browser 
+							<span class="dropBtn" id="dropBtn" onclick="drop()">?</span>
+							<div class="drop-content" id="drop-content">
+								<p>Two cookies are used on this site:</p>
+								<p>The essential one is the session cookie, usually called MoodleSession. You must allow this cookie in your browser to provide continuity and to remain logged in when browsing the site. When you log out or close the browser, this cookie is destroyed (in your browser and on the server).</p>
+								<p>The other cookie is purely for convenience, usually called MOODLEID or similar. It just remembers your username in the browser. This means that when you return to this site, the username field on the login page is already filled in for you. It is safe to refuse this cookie - you will just have to retype your username each time you log in.</p>
+							</div>
+						</p>
+
+						<p>Some courses may allow guest access</p>
+
+						<button class="guest" onclick="invalid()">Log in as a guest</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container2">
+			<h1>Is this your first time here?</h1>
+			<p>- Utilisez votre Code <b>Massar</b> ou <b>CNE</b> (Code National de l'Étudiant ) comme nom d'utilisateur (<b>Minuscule</b>)</p>
+
+			<p> -Si vous êtes <b>Étudiant</b>, renseignez votre <b>CIN</b> (Code d'Identité Nationale)  comme mot de passe. (Il est recommandé de changer ce mot de passe après la première authentification).</p>
+
+			<p>-Si vous êtes <b>Enseignant</b>, votre mot de passe vous a été envoyé à votre boite Émail.</p>
+		</div>
+	</section>
+
+
+	<footer>
+		You are currently using guest access
+		<div class="links"> 
+			<a href="">Home</a>
+			<a href="">Data retention summary</a>
+			<a href="">Get the mobile app</a>
+		</div>
+
+	</footer>
+
+
+	<div class="cloner">
+		<h1>Cloned By</h1>
+		<p>Moodle log-in page (FSDM) is cloned by Muhammed El-Idrissi Laoukili. You could know more <a href=""><i>about him</i></a>.</p>
+		<p>If you want to hire me to create for you such a beautiful website or a landing page to share documents with your workers, co-workers, students even with your family or just to store your data contact me in this email idrilogic@gmail.com or call me 0767194500</p>
+	</div>
+
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

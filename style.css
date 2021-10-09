@@ -1,0 +1,186 @@
+body {
+	font-family: "arail", sans-serif;
+	margin: 0; 
+	padding: 0;
+	font-size: 15px;
+	color: #484848;
+}
+
+/* the entire container */
+.container-all {
+	width: 600px;
+	margin: 5% auto;
+	padding: 0; 
+	
+}
+
+/* the top container */
+.container {
+	text-align: left;
+	border: 0.5px solid #ddd;
+}
+
+/* FSDM images */
+.images img {
+	width: 100%;
+	border-bottom: 0.5px solid #ddd;
+}
+
+/* error, succes messages */
+.error-msg p {
+	font-size: 15px;
+	padding: 10px 12px;
+	background-color: #FFA2A2;
+	color: #6A0000;
+	margin: 30px 15px;
+}
+
+
+.succes-msg p {
+	font-size: 15px;
+	padding: 10px 12px;
+	background-color: #A4FF99;
+	color: #31B921;
+	margin: 30px 15px;
+}
+
+.error, .succes {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+/* display the top container tow in one */
+.flex {
+	display: flex;
+	margin: 5% 10%; 
+	padding: 0;
+}
+
+/* ediding the form */
+.form input{
+	padding: 8px 12px;
+	outline: none;
+	border: 0.2 solid #F7F7F7;
+	margin: 5%;
+}
+
+
+/* log-in button */ 
+.log-in {
+	margin: 5% 5% 0% 5%;
+	width: 199px;
+	text-align: center;
+	padding: 12px 0;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	background-color: rgba(68, 77, 255, 0.9);
+	color: #fff;
+}
+
+
+/* more edittinf stuff to first container */
+.more {
+	margin: 2% 2% 0% 8%;
+	line-height: 21px;
+}
+
+.active {
+	color: #1EB4FF;	
+	text-decoration: none;
+}
+
+.active:hover {
+	color: darkblue;	
+	text-decoration: underline;
+}
+
+
+/* drop button */
+.dropBtn {
+	padding: 1px 3px;
+	border-radius: 50%;
+	background-color: #1EB4FF;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	cursor: default;
+}
+
+
+/* drop content */
+.drop-content {
+	position: absolute;
+	float: left;
+	width: 240px;
+	display: block;
+	font-size: 13px;
+	background-color: #fff;
+	border: 0.5px solid #ddd;
+	padding: 4px 12px;
+	display: none;
+}
+
+
+/* log in as a geust */
+.guest {
+	margin: 5% 1% 0% 1%;
+	width: 210px;
+	text-align: center;
+	padding: 12px 0;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	background-color: #A3C3D4;
+	color: #000;
+}
+
+
+/* secondray container */
+.container2 {
+	line-height: 25px;
+	margin: 5% 0%;
+	padding: 8px 12px;
+	text-align: left;
+	border: 0.5px solid #ddd;
+}
+
+
+/* footer */
+footer {
+	background-color: #373a3c;
+	color: #fff;
+	padding: 1% 0% 0% 7%;
+}
+
+.links {
+	color: #fff;
+	padding: 0 0 1% 0;
+}
+
+.links a {
+	padding: 2px 0;
+	color: #fff;
+	display: block;
+}
+
+
+
+
+/* about me */
+.cloner {
+	color: #000;
+	line-height: 22px;
+	bottom: 0;
+	margin: 5% 10%;
+	padding: 10px 30px;
+	box-shadow: 1px 2px 16px 2px rgba(0, 255, 27, 0.5);
+}
+
+.cloner a{
+	font-weight: bold;
+	color: rgba(0, 131, 173);
+}

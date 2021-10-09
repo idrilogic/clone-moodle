@@ -1,0 +1,31 @@
+@media screen and (max-width: 620px) {
+	.flex {
+		display: block;
+		margin: 5% 10%; 
+		padding: 0;
+	}
+
+	.container-all {
+		width: 400px;
+		margin: 5% 10%;
+		padding: 0; 
+		
+	}
+
+	/* ediding the form */
+	.form input:not(.checkbox){
+		width: 80%;
+	}
+
+	/* log-in button & log in as a geust */ 
+	.log-in {
+		width: 90%;
+		margin: 0
+	}
+
+	.guest {
+		width: 85%;
+		margin: 0	
+	}
+	 
+}
